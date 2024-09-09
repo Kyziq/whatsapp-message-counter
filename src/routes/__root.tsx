@@ -15,9 +15,9 @@ function RootComponent() {
       <ThemeProvider>
         <div>
           <header>
-            <div className="max-w-7xl mx-auto py-4 px-4 sm:px-6 lg:px-8 flex justify-between items-center">
-              <h1 className="text-2xl font-semibold flex items-center">
-                <MessageCircle className="mr-2 h-6 w-6 text-green-600" />
+            <div className="max-w-7xl mx-auto py-2 px-4 sm:py-4 sm:px-6 lg:px-8 flex justify-between items-center">
+              <h1 className="text-xl sm:text-2xl font-semibold flex items-center">
+                <MessageCircle className="mr-2 h-5 w-5 sm:h-6 sm:w-6 text-green-600" />
                 WhatsApp Message Counter
               </h1>
               <ModeToggle />
