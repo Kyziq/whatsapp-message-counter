@@ -1,7 +1,6 @@
 import { ModeToggle } from '@/components/mode-toggle';
 import { ThemeProvider } from '@/components/theme-provider';
 import { Outlet, createRootRoute } from '@tanstack/react-router';
-import { TanStackRouterDevtools } from '@tanstack/router-devtools';
 import { MessageCircle } from 'lucide-react';
 import { HelmetProvider } from 'react-helmet-async';
 
@@ -28,7 +27,6 @@ function RootComponent() {
           <main>
             <Outlet />
           </main>
-          <TanStackRouterDevtools />
         </div>
       </ThemeProvider>
     </HelmetProvider>
