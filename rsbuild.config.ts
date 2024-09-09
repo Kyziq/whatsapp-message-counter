@@ -12,4 +12,7 @@ export default defineConfig({
   html: {
     favicon: "./src/assets/logo.png",
   },
+  output: {
+    assetPrefix: "/whatsapp-message-counter/",
+  },
 });
