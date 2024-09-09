@@ -4,12 +4,12 @@ import { routeTree } from './routeTree.gen';
 // Set up a Router instance
 const router = createRouter({
   routeTree,
+  basepath: '/whatsapp-message-counter',
   defaultPreload: 'intent',
   defaultNotFoundComponent: () => {
     return (
       <div>
         <p>Not found!</p>
-        <Link to="/">Go home</Link>
       </div>
     );
   },
