@@ -1,4 +1,4 @@
-import Error404 from '@/components/error-404';
+import NotFound from '@/components/not-found';
 import { routeTree } from '@/routeTree.gen';
 import { RouterProvider, createRouter } from '@tanstack/react-router';
 import React from 'react';
@@ -18,7 +18,7 @@ const router = createRouter({
   basepath: '/whatsapp-message-counter',
   defaultPreload: 'intent',
   defaultNotFoundComponent: () => {
-    return <Error404 />;
+    return <NotFound />;
   },
 });
 

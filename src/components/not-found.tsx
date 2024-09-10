@@ -2,7 +2,7 @@ import { Button } from '@/components/ui/button';
 import { Link } from '@tanstack/react-router';
 import { ArrowLeft, FileQuestion } from 'lucide-react';
 
-export default function Error404() {
+export default function NotFound() {
   return (
     <div className="flex flex-col items-center justify-center min-h-[calc(100vh-89px)] bg-background text-foreground p-4">
       <div className="text-center space-y-6 max-w-md">
